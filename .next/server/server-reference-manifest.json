@@ -1,5 +1,66 @@
 {
-  "node": {},
+  "node": {
+    "400ee98772784ad2c0b16fa4770baa9e46f7a6f8c4": {
+      "workers": {
+        "app/dashboard/invoices/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createInvoice",
+          "filename": "app/lib/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/page": "rsc"
+      },
+      "filename": "app/lib/actions.ts",
+      "exportedName": "createInvoice"
+    },
+    "40b5d9536bee7b9408c467fa2c83845bcca77b668f": {
+      "workers": {
+        "app/dashboard/invoices/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteInvoice",
+          "filename": "app/lib/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/page": "rsc"
+      },
+      "filename": "app/lib/actions.ts",
+      "exportedName": "deleteInvoice"
+    },
+    "6033117ea09c1edf79e4e6a1cf60c2ace8448308e2": {
+      "workers": {
+        "app/dashboard/invoices/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateInvoice",
+          "filename": "app/lib/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/page": "rsc"
+      },
+      "filename": "app/lib/actions.ts",
+      "exportedName": "updateInvoice"
+    },
+    "600ee98772784ad2c0b16fa4770baa9e46f7a6f8c4": {
+      "workers": {
+        "app/dashboard/invoices/create/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/invoices/create/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createInvoice",
+          "filename": "app/lib/actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/invoices/create/page": "action-browser"
+      },
+      "filename": "app/lib/actions.ts",
+      "exportedName": "createInvoice"
+    }
+  },
   "edge": {},
   "encryptionKey": "LZGiu6Mo0cgCBGU/CyihSEKLHCZ7TQqw4jGD2ulYB2Q="
 }
